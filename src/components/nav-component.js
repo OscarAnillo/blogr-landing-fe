@@ -2,9 +2,14 @@ import { useState } from 'react';
 
 export default function NavComponent(){
     const [showMenu, setShowMenu] = useState(false);
+    const [showConnect, setShowConnect] = useState(false)
 
     const clickHandler = () => {
         setShowMenu(!showMenu);
+    }
+
+    const clickHandlerConnect = () => {
+        setShowConnect(!showConnect);
     }
 
     return (
@@ -20,7 +25,7 @@ export default function NavComponent(){
                 </div>
             </section>
             {showMenu ? 
-            <div>
+            <div className='inner-menu'>
                 <div>
                     <ul>
                         <li>Product
@@ -30,18 +35,22 @@ export default function NavComponent(){
                             <img src="/images/icon-arrow-dark.svg" alt="" />
                         </li>
                         <ul>
-                            <li>Connect
-                                <img src="/images/icon-arrow-dark.svg" alt="" />
+                            <li style={{color:"rgb(121, 133, 145)"}}>Connect
+                                {showConnect ? <img src="/images/icon-arrow-dark.svg" alt="" onClick={clickHandlerConnect} className="light"/> :
+                                <img src="/images/icon-arrow-dark.svg" alt="" onClick={clickHandlerConnect} />
+                                }
                             </li>
-                            <div>
+                            {showConnect ? 
+                            <div className='inner-menu-connect'>
                                 <p>Contact</p>
                                 <p>Newsletter</p>
                                 <p>LinkedIn</p>
                             </div>
+                            : ''}
                         </ul>
                     </ul>
                 </div>
-            <div>
+            <div className='login'>
                 <p>Login</p>
                 <button>Sign Up</button>
             </div>
