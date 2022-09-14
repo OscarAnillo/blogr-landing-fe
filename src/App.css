@@ -37,11 +37,11 @@ img {
   font-family: 'Overpass', sans-serif;
   font-weight: 600;
   font-size: 18px;
-  box-shadow: 5px 5px 100px rgb(207, 207, 207);
+  box-shadow: 1px 1px 15px rgb(207, 207, 207);
 }
 
 .nav .inner-menu ul li {
-  padding: 1em;
+  padding: 1.5em 0 1em 0;
 }
 
 .nav .inner-menu img {
@@ -61,7 +61,7 @@ img {
 
 }
 .nav .inner-menu-connect p {
-  padding: 1em 0;
+  padding: .7em 0;
 }
 .nav .login {
   border: none;
@@ -82,6 +82,7 @@ img {
   font-family: "Overpass";
   font-weight: 600;
 }
+
 /* Hero component */
 .hero {
   background: linear-gradient(to bottom, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
@@ -101,9 +102,44 @@ img {
   left: -355px;
 }
 
-.hero-text {
+.hero .hero-text {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  width: 70%;
+  /* border: 1px solid red; */
+}
+.hero .hero-text h1 {
+  font-family: "Overpass", sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  color: #fff;
+  padding-bottom: .5em;
+}
+.hero .hero-text p {
+  font-family: "Overpass", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 300;
+  color: #fff;
+  padding-bottom: 3em;
+}
+.hero .btn-white {
+  border: 1px solid #fff;
+  border-radius: 30px;
+  padding: 1.2em 2em;
+  margin: 0 .5em;
+  background: #fff;
+  color: orangered;
+  font-family: "Ubuntu";
+  font-weight: 700;
+}
+.hero .btn-tra {
+  border: 1px solid #fff;
+  border-radius: 30px;
+  padding: 1.2em 2em;
+  background: transparent;
+  color: #fff;
+  font-family: "Ubuntu";
+  font-weight: 700;
 }

@@ -5,8 +5,8 @@ export default function HeroComponent(){
             <div className="hero-text">
                 <h1>A modern publishing platform</h1>
                 <p>Grow your audience and build your online brand</p>
-                <button>Start for Free</button>
-                <button>Learn More</button>
+                <button className="btn-white">Start for Free</button>
+                <button className="btn-tra">Learn More</button>
             </div>
         </div>
     )
