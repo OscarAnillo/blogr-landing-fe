@@ -8,17 +8,50 @@
 
 .App {
   text-align: center;
+  overflow: hidden;
+}
+img {
+  max-width: 100%;
 }
 
 /* NavComponent */
 .nav {
-  background-color: red;
+  position: absolute;
+  width: 100%;
+  top: 5%;
+  z-index: 1;
 }
 .nav section {
-  border: 1px solid #fff;
   width: 90%;
   margin: auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+
+/* Hero component */
+.hero {
+  background: linear-gradient(to bottom, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+  height: 600px;
+  border-bottom-left-radius: 100px;
+  position: relative;
+  overflow: hidden;
+}
+.hero .hero-bg {
+  background-image: url('/public/images/bg-pattern-intro-mobile.svg');
+  background-position: center;
+  background-size: cover;
+  width: 1380px;
+  height: 650px;
+  position: absolute;
+  top: 110px;
+  left: -355px;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
