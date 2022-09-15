@@ -1,6 +1,7 @@
 
 import './App.css';
 import HeroComponent from './components/hero-component';
+import MainComponent from './components/main-component';
 import NavComponent from './components/nav-component';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <NavComponent />
       <HeroComponent />
+      <MainComponent />
     </div>
   );
 }
