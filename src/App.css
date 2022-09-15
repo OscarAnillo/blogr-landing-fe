@@ -748,7 +748,6 @@ img {
     align-items: center;
     justify-content: space-between;
     flex-direction: row-reverse;
-    border: 1px solid ridge;
   }
 
   .main-row-desktop-editor>div:nth-child(1) {
