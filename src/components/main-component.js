@@ -2,19 +2,23 @@ export default function MainComponent(){
     return (
         <main className="main">
             <h1 className="main-title">Designed for the future</h1>
-            <div className="main-row-desktop">
+            <div className="main-row-desktop-editor">
                 <div>
-                    <img src="/images/illustration-editor-mobile.svg" alt="" />
+                    <img src="/images/illustration-editor-mobile.svg" alt="" className="editor-mobile"/>
+                    <img src="/images/illustration-editor-desktop.svg" alt="" className="editor-desktop"/>
                 </div>
                 <div>
-                    <h1 className="title-editor">Introducing an extensible editor</h1>
-                    <p className="para-editor">Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, videos and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or change the looks of a blog.</p>
-                </div>
+                    <div>
+                        <h1 className="title-editor">Introducing an extensible editor</h1>
+                        <p className="para-editor">Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, videos and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or change the looks of a blog.</p>
+                    </div>
                 <div>
                     <h1 className="title-management">Robust content management</h1>
                     <p className="para-management">Flexible content management enable users to easily move through posts. Increase the usability of your blog by adding customized categories, sections, format or flow. With this functionality, you're in control.</p>
                 </div>
-                <div className="phones">
+                </div>
+            </div>
+                <div className="phones main-row-desktop-phones">
                     <div>
                         <img src="/images/illustration-phones.svg" alt="" />
                     </div>
@@ -23,9 +27,10 @@ export default function MainComponent(){
                         <p>With reliability and speen in mind, worldwide data centers provide the backbone for ultra-fast connectivity. This ensures your site will load instanly, no matter where your readers are, keeping your site competitive.</p>
                     </div>
                 </div>
-                <div className="laptop">
+                <div className="laptop main-row-desktop-laptop">
                     <div>
-                        <img src="/images/illustration-laptop-mobile.svg" alt="" />
+                        <img src="/images/illustration-laptop-mobile.svg" alt="" className="laptop-mobile" />
+                        <img src="/images/illustration-laptop-desktop.svg" alt="" className="laptop-desktop" />
                     </div>
                     <div>
                         <div>
@@ -38,7 +43,6 @@ export default function MainComponent(){
                         </div>
                     </div>
                 </div>
-            </div>
         </main>
     )
 }
