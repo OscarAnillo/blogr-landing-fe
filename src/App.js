@@ -1,8 +1,9 @@
-
-import './App.css';
+import NavComponent from './components/nav-component';
 import HeroComponent from './components/hero-component';
 import MainComponent from './components/main-component';
-import NavComponent from './components/nav-component';
+import FooterComponent from './components/footer-component';
+
+import './App.css';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <NavComponent />
       <HeroComponent />
       <MainComponent />
+      <FooterComponent />
     </div>
   );
 }

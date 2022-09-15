@@ -258,4 +258,30 @@ img {
   line-height: 30px;
   width: 79%;
   margin: auto; 
+  padding-bottom: 100px;
+}
+
+/* Footer Component */
+.footer {
+  background-color: rgb(36, 36, 44);
+  border-top-right-radius: 100px;
+  padding-top: 75px;
+}
+.footer img {
+  margin-bottom: 78px;
+}
+.footer .footer-row ul li {
+  padding: .3em 0;
+  color: rgb(139, 140, 145);
+  font-family: "Overpass", sans-serif;
+  font-weight: 600;
+}
+.footer .product, .company, .connect {
+  padding: 0 0 1.5em 0;
+}
+.footer .footer-row .head-li {
+  color: #fff;
+  font-family: "Overpass", sans-serif;
+  font-weight: 600;
+  padding-bottom: 1.5em;
 }
