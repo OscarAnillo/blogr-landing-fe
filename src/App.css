@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap');
 
 * {
@@ -12,6 +11,7 @@
   overflow: hidden;
   min-height: 100vh;
 }
+
 img {
   max-width: 100%;
 }
@@ -23,6 +23,7 @@ img {
   top: 5%;
   z-index: 1;
 }
+
 .nav section {
   width: 90%;
   margin: auto;
@@ -30,9 +31,14 @@ img {
   align-items: center;
   justify-content: space-between;
 }
+
 .nav .nav-desktop {
   display: none;
 }
+.nav .div-desktop-login {
+  display: none;
+}
+
 .nav .inner-menu {
   background-color: #fff;
   border-radius: 5px;
@@ -56,6 +62,7 @@ img {
   transform: rotate(-180deg);
   padding-right: .5em;
 }
+
 .nav .inner-menu-connect {
   background-color: rgb(239, 239, 241);
   color: rgb(121, 133, 145);
@@ -64,18 +71,22 @@ img {
   margin: 0 auto 2em auto;
 
 }
+
 .nav .inner-menu-connect p {
   padding: .7em 0;
 }
+
 .nav .login {
   border: none;
   border-top: 1px solid #eee;
   width: 90%;
   margin: auto;
 }
+
 .nav .login p {
   padding: 2em 0;
 }
+
 .nav .login button {
   background: linear-gradient(to left, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
   border: none;
@@ -95,6 +106,7 @@ img {
   position: relative;
   overflow: hidden;
 }
+
 .hero .hero-bg {
   background-image: url('/public/images/bg-pattern-intro-mobile.svg');
   background-position: center;
@@ -113,6 +125,7 @@ img {
   transform: translate(-50%, -50%);
   width: 80%;
 }
+
 .hero .hero-text h1 {
   font-family: "Overpass", sans-serif;
   font-weight: 600;
@@ -120,6 +133,7 @@ img {
   color: #fff;
   padding-bottom: .5em;
 }
+
 .hero .hero-text p {
   font-family: "Overpass", sans-serif;
   font-size: 1.1rem;
@@ -127,6 +141,7 @@ img {
   color: #fff;
   padding-bottom: 3em;
 }
+
 .hero .btn-white {
   border: 1px solid #fff;
   border-radius: 30px;
@@ -138,6 +153,7 @@ img {
   font-weight: 700;
   font-size: 18px;
 }
+
 .hero .btn-tra {
   border: 1px solid #fff;
   border-radius: 30px;
@@ -154,15 +170,18 @@ img {
   /* border: 1px solid red; */
   padding-top: 100px;
 }
+
 .main .main-title {
   color: hsl(208, 49%, 24%);
   font-family: "Overpass", sans-serif;
   font-weight: 600;
   padding-bottom: 55px;
 }
+
 .main-row-desktop-editor .editor-desktop {
   display: none;
 }
+
 .main .title-editor {
   color: hsl(208, 49%, 24%);
   font-family: "Overpass", sans-serif;
@@ -172,6 +191,7 @@ img {
   width: 80%;
   margin: auto;
 }
+
 .main .para-editor {
   color: rgb(131, 135, 138);
   font-family: "Overpass", sans-serif;
@@ -180,19 +200,21 @@ img {
   width: 90%;
   margin: auto;
 }
+
 .main .title-management {
   color: hsl(208, 49%, 24%);
   font-family: "Overpass", sans-serif;
   font-weight: 600;
   padding: 60px 0 35px 0;
 }
+
 .main .para-management {
   color: rgb(131, 135, 138);
   font-family: "Overpass", sans-serif;
   font-weight: 300;
   line-height: 30px;
   width: 90%;
-  margin: auto; 
+  margin: auto;
   padding-bottom: 100px;
 }
 
@@ -208,22 +230,26 @@ img {
   border-bottom-left-radius: 100px;
   margin-top: 100px;
 }
+
 .main .phones img {
   position: relative;
   top: -140px;
   left: 0px;
 }
+
 .phones .phones-div {
   position: relative;
-  top: -140px;
+  top: -160px;
 }
+
 .phones .phones-div h1 {
-  color:#fff;
+  color: #fff;
   font-family: "Overpass";
   font-weight: 600;
   font-size: 2.5rem;
   padding-bottom: 42px;
 }
+
 .phones .phones-div p {
   color: #fff;
   font-family: "Overpass", sans-serif;
@@ -236,6 +262,7 @@ img {
 .main .laptop {
   padding-top: 80px;
 }
+
 .main .laptop-desktop {
   display: none;
 }
@@ -246,13 +273,14 @@ img {
   font-weight: 600;
   padding: 40px 0 40px 0;
 }
+
 .para-simple {
   color: rgb(131, 135, 138);
   font-family: "Overpass", sans-serif;
   font-weight: 300;
   line-height: 30px;
   width: 79%;
-  margin: auto; 
+  margin: auto;
 }
 
 .title-tooling {
@@ -261,13 +289,14 @@ img {
   font-weight: 600;
   padding: 60px 0 40px 0;
 }
+
 .para-tooling {
   color: rgb(131, 135, 138);
   font-family: "Overpass", sans-serif;
   font-weight: 300;
   line-height: 30px;
   width: 79%;
-  margin: auto; 
+  margin: auto;
   padding-bottom: 100px;
 }
 
@@ -277,18 +306,24 @@ img {
   border-top-right-radius: 100px;
   padding-top: 75px;
 }
+
 .footer img {
   margin-bottom: 78px;
 }
+
 .footer .footer-row ul li {
   padding: .3em 0;
   color: rgb(139, 140, 145);
   font-family: "Overpass", sans-serif;
   font-weight: 600;
 }
-.footer .product, .company, .connect {
+
+.footer .product,
+.company,
+.connect {
   padding: 0 0 1.5em 0;
 }
+
 .footer .footer-row .head-li {
   color: #fff;
   font-family: "Overpass", sans-serif;
@@ -297,6 +332,7 @@ img {
 }
 
 @media(min-width: 1020px) {
+
   /* NavComponent*/
   .nav section {
     width: 90%;
@@ -304,18 +340,21 @@ img {
     font-weight: 500;
     color: #fff;
   }
+
   .nav .div-desktop {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 53%;
   }
+
   .nav .div-desktop-login {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 25%;
   }
+
   .nav .div-desktop-login button {
     border: none;
     border-radius: 30px;
@@ -325,46 +364,57 @@ img {
     font-family: "Ubuntu", sans-serif;
     font-size: 18px;
     font-weight: 700;
-  } 
+  }
+
   .nav .div-desktop-login button:hover {
     cursor: pointer;
     color: #fff;
     background-color: rgb(255, 123, 134);
   }
+
   .nav .nav-desktop {
     display: block;
   }
+
   .nav .nav-desktop ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
+
   .nav .nav-desktop ul li {
     color: #fff;
     margin: 0 .5em;
     font-size: 18px;
   }
+
   .nav .nav-desktop ul li:hover {
     text-decoration: underline;
   }
+
   .nav .nav-desktop img {
     margin: 0 .5em;
   }
+
   .nav .nav-desktop img:hover {
     cursor: pointer;
   }
+
   .nav .nav-mobile {
     display: none;
   }
+
   .nav .light {
     padding-right: 0em;
   }
+
   .nav .inner-menu-connect {
     padding: 1em 0;
     width: 10%;
     position: absolute;
     top: 65px;
   }
+
   .nav .inner-menu-connect p:hover {
     cursor: pointer;
     color: #000;
@@ -373,6 +423,7 @@ img {
   .hero {
     border-bottom-left-radius: 120px;
   }
+
   .hero .hero-bg {
     background-image: url('/public/images/bg-pattern-intro-desktop.svg');
     background-position: bottom center;
@@ -382,6 +433,7 @@ img {
     top: -400px;
     left: -485px;
   }
+
   .hero .hero-text {
     position: absolute;
     top: 57%;
@@ -389,12 +441,15 @@ img {
     transform: translate(-50%, -50%);
     width: 80%;
   }
+
   .hero .hero-text h1 {
     font-size: 3.5rem;
   }
+
   .hero .hero-text p {
     font-size: 1.3rem;
   }
+
   .hero .btn-white {
     border: none;
     border-radius: 30px;
@@ -406,6 +461,7 @@ img {
     font-weight: 700;
     font-size: 18px;
   }
+
   .hero .btn-tra {
     border: 1px solid #fff;
     border-radius: 30px;
@@ -416,31 +472,37 @@ img {
     font-weight: 700;
     font-size: 18px;
   }
-  
+
   /* MainComponent */
   .main {
     padding-top: 100px;
   }
+
   .main .main-title {
     padding-bottom: 120px;
     font-size: 2.3rem;
   }
+
   .main-row-desktop-editor {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-direction: row-reverse;
   }
-  .main-row-desktop-editor > div:nth-child(1) {
+
+  .main-row-desktop-editor>div:nth-child(1) {
     width: 50%;
     height: 550px;
   }
-  .main-row-desktop-editor > div:nth-child(2) {
+
+  .main-row-desktop-editor>div:nth-child(2) {
     width: 50%;
   }
+
   .main-row-desktop-editor .editor-mobile {
     display: none;
   }
+
   .main-row-desktop-editor .editor-desktop {
     display: block;
   }
@@ -452,18 +514,21 @@ img {
     margin-left: 1em;
     text-align: left;
   }
+
   .main .para-editor {
     width: 95%;
     margin-left: 2em;
   }
+
   .main .title-management {
     padding: 60px 0 20px 0;
     text-align: left;
     margin-left: 1em;
   }
+
   .main .para-management {
     width: 95%;
-    margin-left: 2em; 
+    margin-left: 2em;
   }
 
   .main .main-row-desktop-phones {
@@ -475,39 +540,47 @@ img {
   .main .main-row-desktop-phones div {
     width: 50%;
   }
-  
+
   .main .phones {
     background-size: cover;
     background-position: left;
     height: 406px;
   }
+
   .main .phones img {
     top: 10px;
   }
+
   .phones .phones-div {
     top: 0px;
   }
+
   .phones .phones-div h1 {
     text-align: left;
     font-size: 2rem;
   }
+
   .phones .phones-div p {
     width: 95%;
     margin: 0;
     text-align: left;
   }
+
   .main .main-row-desktop-laptop {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 50px;
   }
-  .main .main-row-desktop-laptop > div {
+
+  .main .main-row-desktop-laptop>div {
     width: 50%;
   }
+
   .main .laptop-desktop {
     display: block;
   }
+
   .main .laptop-mobile {
     display: none;
   }
@@ -515,52 +588,292 @@ img {
   .main .laptop {
     padding-top: 80px;
   }
+
   .title-simple {
     text-align: left;
     padding: 0px 0 40px 0;
   }
+
   .para-simple {
     text-align: left;
     width: 90%;
-    margin: 0; 
+    margin: 0;
   }
-  
+
   .title-tooling {
     text-align: left;
     padding: 60px 0 30px 0;
   }
+
   .para-tooling {
     text-align: left;
     width: 95%;
-    margin: 0; 
+    margin: 0;
     padding-bottom: 100px;
   }
+
   .footer {
     background-color: rgb(36, 36, 44);
     border-top-right-radius: 100px;
     padding-top: 75px;
   }
+
   .footer-row {
     display: flex;
     align-items: flex-start;
     justify-content: space-evenly;
   }
+
   .footer img {
     margin-bottom: 78px;
   }
+
   .footer .footer-row ul li {
     padding: .3em 0;
     color: rgb(139, 140, 145);
     font-family: "Overpass", sans-serif;
     font-weight: 600;
   }
-  .footer .product, .company, .connect {
+
+  .footer .product,
+  .company,
+  .connect {
     padding: 0 0 1.5em 0;
   }
+
   .footer .footer-row .head-li {
     color: #fff;
     font-family: "Overpass", sans-serif;
     font-weight: 600;
     padding-bottom: 1.5em;
+  }
+}
+
+@media(min-width: 1440px) {
+
+  /* NavComponent*/
+  .nav section {
+    width: 80%;
+  }
+
+  .nav .div-desktop {
+    width: 40%;
+  }
+
+  .nav .div-desktop-login {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 15%;
+  }
+
+  .nav .nav-desktop ul li {
+    margin: 0 1em;
+  }
+
+  .nav .nav-desktop ul li:hover {
+    text-decoration: underline;
+  }
+
+  .nav .nav-desktop img:hover {
+    cursor: pointer;
+  }
+
+  .nav .inner-menu-connect {
+    padding: .5em 0;
+    top: 50px;
+  }
+
+  .nav .inner-menu-connect p:hover {
+    cursor: pointer;
+    color: #000;
+  }
+
+  /* HeroComponent */
+
+  .hero {
+    border-bottom-left-radius: 120px;
+  }
+
+  .hero .hero-bg {
+    background-image: url('/public/images/bg-pattern-intro-desktop.svg');
+    background-position: bottom center;
+    background-size: cover;
+    width: 2480px;
+    height: 2850px;
+    top: -1200px;
+    left: 100px;
+  }
+
+  .hero .hero-text {
+    width: 50%;
+  }
+
+  .hero .hero-text h1 {
+    font-size: 4rem;
+  }
+
+  .hero .btn-white {
+    font-size: 18px;
+  }
+
+  .hero .btn-white:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: rgb(255, 123, 134);
+  }
+
+  .hero .btn-tra {
+    border: 1px solid #fff;
+    border-radius: 30px;
+    padding: 1em;
+    background: transparent;
+    color: #fff;
+    font-family: "Ubuntu";
+    font-weight: 700;
+    font-size: 18px;
+  }
+
+  .hero .btn-tra:hover {
+    background-color: #fff;
+    color: rgb(250, 128, 141);
+  }
+
+  /* MainComponent */
+  .main {
+    padding-top: 160px;
+  }
+
+  .main-row-desktop-editor {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    border: 1px solid ridge;
+  }
+
+  .main-row-desktop-editor>div:nth-child(1) {
+    width: 50%;
+    height: 900px;
+  }
+
+  .main .title-editor {
+    padding-top: 0px;
+    padding-bottom: 20px;
+    width: 100%;
+    margin-left: 5em;
+    text-align: left;
+  }
+
+  .main .para-editor {
+    width: 60%;
+    text-align: left;
+    margin-left: 10em;
+  }
+
+  .main .title-management {
+    padding: 60px 0 20px 0;
+    text-align: left;
+    margin-left: 5em;
+  }
+
+  .main .para-management {
+    width: 60%;
+    text-align: left;
+    margin-left: 10em;
+  }
+
+  .main .main-row-desktop-phones {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .main .main-row-desktop-phones div {
+    width: 50%;
+  }
+
+  .main .phones {
+    background-size: contain;
+    background-position: bottom left;
+    height: 406px;
+  }
+
+  .main .phones img {
+    top: 20px;
+  }
+
+  .phones .phones-div {
+    top: 0px;
+  }
+
+  .phones .phones-div h1 {
+    font-size: 2.2rem;
+  }
+
+  .phones .phones-div p {
+    width: 55%;
+    margin: 0;
+    text-align: left;
+  }
+
+  .main .main-row-desktop-laptop {
+    margin: 100px 0;
+  }
+
+  .main .main-row-desktop-laptop>div {
+    width: 50%;
+  }
+
+  .main .laptop-desktop {
+    display: block;
+  }
+
+  .main .laptop-mobile {
+    display: none;
+  }
+
+  .main .laptop {
+    padding-top: 80px;
+  }
+
+  .title-simple {
+    text-align: left;
+    padding: 0px 0 40px 0;
+  }
+
+  .para-simple {
+    text-align: left;
+    width: 50%;
+    margin: 0;
+  }
+
+  .title-tooling {
+    text-align: left;
+    padding: 60px 0 30px 0;
+  }
+
+  .para-tooling {
+    text-align: left;
+    width: 55%;
+    margin: 0;
+    padding-bottom: 100px;
+  }
+
+  .footer {
+    height: 360px;
+    text-align: left;
+  }
+
+  .footer img {
+    margin-bottom: 0px;
+  }
+
+  .footer .footer-row ul li {
+    padding: .7em 0;
+  }
+  .footer .footer-row ul li:hover {
+    cursor: pointer;
+    text-decoration: underline;
   }
 }
