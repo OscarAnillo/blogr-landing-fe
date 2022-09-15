@@ -147,13 +147,115 @@ img {
 }
 
 /* MainComponent */
-.phones {
+.main {
+  /* border: 1px solid red; */
+  padding-top: 100px;
+}
+.main .main-title {
+  color: hsl(208, 49%, 24%);
+  font-family: "Overpass", sans-serif;
+  font-weight: 600;
+  padding-bottom: 55px;
+}
+.main .title-editor {
+  color: hsl(208, 49%, 24%);
+  font-family: "Overpass", sans-serif;
+  font-weight: 600;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  width: 80%;
+  margin: auto;
+}
+.main .para-editor {
+  color: rgb(131, 135, 138);
+  font-family: "Overpass", sans-serif;
+  font-weight: 300;
+  line-height: 30px;
+  width: 90%;
+  margin: auto;
+}
+.main .title-management {
+  color: hsl(208, 49%, 24%);
+  font-family: "Overpass", sans-serif;
+  font-weight: 600;
+  padding: 60px 0 35px 0;
+}
+.main .para-management {
+  color: rgb(131, 135, 138);
+  font-family: "Overpass", sans-serif;
+  font-weight: 300;
+  line-height: 30px;
+  width: 90%;
+  margin: auto; 
+  padding-bottom: 100px;
+}
+
+.main .phones {
   background-image: url('/public/images/bg-pattern-circles.svg');
   background-size: contain;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   height: 626px;
+  width: 100%;
   background-color: rgb(58, 61, 92);
   border-top-right-radius: 100px;
   border-bottom-left-radius: 100px;
+  margin-top: 100px;
+}
+.main .phones img {
+  position: relative;
+  top: -140px;
+  left: 0px;
+}
+.phones .phones-div {
+  position: relative;
+  top: -140px;
+}
+.phones .phones-div h1 {
+  color:#fff;
+  font-family: "Overpass";
+  font-weight: 600;
+  font-size: 2.5rem;
+  padding-bottom: 42px;
+}
+.phones .phones-div p {
+  color: #fff;
+  font-family: "Overpass", sans-serif;
+  font-weight: 300;
+  line-height: 25px;
+  width: 80%;
+  margin: auto;
+}
+
+.main .laptop {
+  padding-top: 80px;
+}
+.title-simple {
+  color: hsl(208, 49%, 24%);
+  font-family: "Overpass", sans-serif;
+  font-weight: 600;
+  padding: 40px 0 40px 0;
+}
+.para-simple {
+  color: rgb(131, 135, 138);
+  font-family: "Overpass", sans-serif;
+  font-weight: 300;
+  line-height: 30px;
+  width: 79%;
+  margin: auto; 
+}
+
+.title-tooling {
+  color: hsl(208, 49%, 24%);
+  font-family: "Overpass", sans-serif;
+  font-weight: 600;
+  padding: 60px 0 40px 0;
+}
+.para-tooling {
+  color: rgb(131, 135, 138);
+  font-family: "Overpass", sans-serif;
+  font-weight: 300;
+  line-height: 30px;
+  width: 79%;
+  margin: auto; 
 }
