@@ -30,6 +30,9 @@ img {
   align-items: center;
   justify-content: space-between;
 }
+.nav .nav-desktop {
+  display: none;
+}
 .nav .inner-menu {
   background-color: #fff;
   border-radius: 5px;
@@ -284,4 +287,79 @@ img {
   font-family: "Overpass", sans-serif;
   font-weight: 600;
   padding-bottom: 1.5em;
+}
+
+@media(min-width: 1020px) {
+  /* NavComponent*/
+  .nav section {
+    width: 80%;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    color: #fff;
+  }
+  .nav .div-desktop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 35%;
+  }
+  .nav .div-desktop-login {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 15%;
+  }
+  .nav .div-desktop-login button {
+    border: none;
+    border-radius: 30px;
+    background-color: #fff;
+    color: rgb(250, 128, 141);
+    padding: 1em 2.5em;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .nav .div-desktop-login button:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: rgb(255, 123, 134);
+  }
+  .nav .nav-desktop {
+    display: block;
+  }
+  .nav .nav-desktop ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .nav .nav-desktop ul li {
+    color: #fff;
+    margin: 0 1em;
+    font-size: 18px;
+  }
+  .nav .nav-desktop ul li:hover {
+    text-decoration: underline;
+  }
+  .nav .nav-desktop img {
+    margin: 0 .5em;
+  }
+  .nav .nav-desktop img:hover {
+    cursor: pointer;
+  }
+  .nav .nav-mobile {
+    display: none;
+  }
+  .nav .light {
+    padding-right: 0em;
+  }
+  .nav .inner-menu-connect {
+    padding: 1em 0;
+    width: 10%;
+    position: absolute;
+    top: 65px;
+  }
+  .nav .inner-menu-connect p:hover {
+    cursor: pointer;
+    color: #000;
+  }
 }
